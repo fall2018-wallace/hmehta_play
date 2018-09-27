@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "script7256.R"
         }
     ],
     "nodes": [
@@ -40,6 +50,6 @@
             "name": "script7256.R"
         }
     ],
-    "updated_at": "2018-09-27 17:05:31",
+    "updated_at": "2018-09-27 17:06:41",
     "url": "https://github.com/fall2018-wallace/hmehta_play"
 }
