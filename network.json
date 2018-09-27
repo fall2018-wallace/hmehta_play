@@ -33,6 +33,16 @@
             ],
             "source": "raw_data.csv",
             "target": "script7256.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot",
+                    "type": "png"
+                }
+            ],
+            "source": "script7256.R",
+            "target": "plot5880.png"
         }
     ],
     "nodes": [
@@ -53,6 +63,6 @@
             "name": "plot5880.png"
         }
     ],
-    "updated_at": "2018-09-27 17:08:04",
+    "updated_at": "2018-09-27 17:08:16",
     "url": "https://github.com/fall2018-wallace/hmehta_play"
 }
